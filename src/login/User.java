@@ -23,12 +23,12 @@ public class User {
         sql += "select nome from usuarios ";
         sql +="where login = " + "'" + login + "'";
         sql += " and senha = " + "'" + senha + "';";
-        try {
+        try{
             Statement st = conn.createStatement();
             ResultSet rs = st.executeQuery(sql);
             if (rs.next()) {
                 result = true;
                 nome = rs.getString("nome"); }
-        } catch (Exception e) { }
+        }catch (Exception e) { }
         return result; }
     }//fim da class
