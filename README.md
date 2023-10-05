@@ -32,6 +32,13 @@ do tratamento `catch`.
 6. Conexões abertas
    1. As conexões com o banco não foram fechadas.
 
+## Grafo de fluxo de controle
+Abaixo, seguem a imagem do código numerado e, em seguida, o grafo de fluxo de controle.
+![fluxo-v2](https://github.com/nicolasgandrade/caixa-branca-tqs/assets/82426254/b23b48f9-0646-4a7f-a654-fe0d8143b395)
+![grafo-fluxo-v2](https://github.com/nicolasgandrade/caixa-branca-tqs/assets/82426254/b7da5e09-892b-448e-8768-666df20ac53a)
+
+### Cálculo de Complexidade ciclomática:
+Seguindo a fórmula da complexidade ciclomática dada por $CC=A-V+2$, sendo A as arestas, V os vértices (ou nós), temos no caso anterior a complexidade descrita por $CC=20-16+2$, ou seja, 6.
 
 <hr>
 Nicolas Sol Guerrero de Andrade Frederico - 212118
