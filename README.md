@@ -40,5 +40,19 @@ Abaixo, seguem a imagem do código numerado e, em seguida, o grafo de fluxo de c
 ### Cálculo de Complexidade ciclomática:
 Seguindo a fórmula da complexidade ciclomática dada por $CC=A-V+2$, sendo A as arestas, V os vértices (ou nós), temos no caso anterior a complexidade descrita por $CC=20-16+2$, ou seja, 6.
 
+### Caminhos
+1. Caminho 1 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16;
+2. Caminho 2 = 1; 2; 3; 4; 5; 8; 9; 10; 11; 12; 13; 14; 15; 16;
+3. Caminho 3 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 14; 15; 16;
+4. Caminho 4 = 1; 2; 3; 4; 5; 8; 9; 10; 11; 14; 15; 16;
+5. Caminho 5 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 14; 15; 16;
+6. Caminho 6 = 1; 2; 3; 4; 5; 8; 9; 10; 11; 12; 14; 15; 16;
+7. Caminho 7 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 16;
+8. Caminho 8 = 1; 2; 3; 4; 5; 8; 9; 10; 11; 12; 16;
+9. Caminho 9 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 16;
+10. Caminho 10 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 16;
+11. Caminho 11 = 1; 2; 3; 4; 5; 8; 9; 10; 11; 12; 13; 16;
+12. Caminho 12 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 16;
+
 <hr>
 Nicolas Sol Guerrero de Andrade Frederico - 212118
