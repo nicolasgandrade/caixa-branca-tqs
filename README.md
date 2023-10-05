@@ -55,4 +55,5 @@ Seguindo a fórmula da complexidade ciclomática dada por $CC=A-V+2$, sendo A as
 12. Caminho 12 = 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 16;
 
 <hr>
+Última atualização: 05/10/23
 Nicolas Sol Guerrero de Andrade Frederico - 212118
